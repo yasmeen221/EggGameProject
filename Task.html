@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg</title>
+
+    <style>
+        body {
+        background-image: url(images/backgroun.jpg);
+    
+        background-size: cover;
+       
+
+        }
+     
+        #eggimage{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        #basketImage{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+                
+        }
+        .notShow{
+            display: none;
+
+        }
+        div{
+            text-align: center;
+            margin: auto;
+            width: 140px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+      
+    </style>
+   
+</head>
+<body>
+   <div> <span>Score: <span id="score">0</span></span></div>
+    <img src="images/1182.png" id="eggimage"/>
+    <img src="images/basket.png" id="basketImage"/>
+    <script src="Task.js"></script>
+    <script>
+        moveEggImage (document.images[0], 0,0)
+    </script>
+        
+    
+</body>
+</html>
